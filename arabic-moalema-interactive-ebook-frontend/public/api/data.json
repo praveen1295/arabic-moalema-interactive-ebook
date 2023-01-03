@@ -1,0 +1,36 @@
+{
+    "contents": [
+      {
+        "_id": 1,
+        "content": "hello world Lorem ipsum dolor sit amet consectetur adipisicing elit. hello world Lorem ipsum dolor sit amet consectetur adipisicing elit. hello world Lorem ipsum dolor sit amet consectetur adipisicing elit. hello world Lorem ipsum dolor sit amet consectetur adipisicing elit. hello world Lorem ipsum dolor sit amet consectetur adipisicing elit. hello world Lorem ipsum dolor sit amet consectetur adipisicing elit. hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit.hello world Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        
+      },
+      {
+        "_id": 2,
+        "content": "hello world 2"
+      }
+    ],
+  
+    "Activities": [
+      {
+        "_id": 1,
+        "page": 1,
+        "created_by": "xyz",
+        "Activity_type": "styling"
+      }
+    ],
+  
+    "Assignments": [
+      {
+        "_id": 1,
+        "Activity_Id": 1,
+        "Assign_by": "teacherId",
+        "Assign_to": "studentId",
+        "contents": {
+          "content": "<span class='bg-yellow-400'>hello</span> <span>world</span>"
+        },
+        "grad": 1
+      }
+    ]
+}
+  
