@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faTools } from "@fortawesome/free-solid-svg-icons";
 
 const Tools = ({ getColor }) => {
   const [flag, setFlag] = useState(false);
@@ -16,18 +16,14 @@ const Tools = ({ getColor }) => {
   }, [flag]);
   return (
     <div className="flex gap-5 items-center w-full h-10 py-7 px-4">
-      {/* <FontAwesomeIcon icon={faCoffee} />
-      <FontAwesomeIcon icon="fa-duotone fa-paintbrush-pencil" /> */}
-      {/* <FontAwesomeIcon icon={[faDuotone, faPaintbrushPencil]} /> */}
-
       <h2 className="font-medium text-2xl cursor-pointer" onClick={handleClick}>
-        Tools
+        <FontAwesomeIcon icon={faTools} />
       </h2>
       <div>
         {flag && (
           <>
             <div className="flex gap-2 justify-center items-center">
-              <div>Choose Color</div>
+              <div></div>
               <div
                 className="rounded-full w-10 h-10 bg-yellow-400 inline-block cursor-pointer"
                 onClick={() => {
